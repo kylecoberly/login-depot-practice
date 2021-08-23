@@ -1,0 +1,40 @@
+.LoginForm {
+  max-width: 300px;
+  margin-bottom: 30%;
+}
+
+.LoginForm h2 {
+  margin-bottom: 36px;
+  font-size: 24px;
+}
+
+.LoginForm label, .LoginForm input {
+  display: block;
+  width: 100%;
+}
+
+.LoginForm label {
+  margin-bottom: 12px;
+  color: hsl(200, 50%, 20%);
+}
+
+.LoginForm input {
+  margin-bottom: 24px;
+  padding: 18px 12px;
+  border-radius: 2px;
+}
+
+.LoginForm [type=submit] {
+  background-color: hsl(200, 20%, 90%);
+  color: hsl(200, 20%, 10%);
+  font-size: 18px;
+  border: none;
+  box-shadow: 0 1px 2px hsl(200, 50%, 20%);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.LoginForm .error {
+  color: hsl(340, 50%, 50%);
+}
+

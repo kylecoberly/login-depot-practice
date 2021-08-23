@@ -1,0 +1,41 @@
+.UserProfile {
+  max-width: 700px;
+  margin-bottom: 30%;
+}
+
+.UserProfile .profile-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.UserProfile h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.UserProfile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.UserProfile .description {
+  margin-left: 16px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.UserProfile button {
+  background-color: hsl(340, 20%, 90%);
+  color: hsl(200, 20%, 10%);
+  font-size: 18px;
+  border: none;
+  box-shadow: 0 1px 2px hsl(340, 50%, 20%);
+  cursor: pointer;
+  font-family: inherit;
+  padding: 18px 24px;
+  margin-left: 16px;
+}
