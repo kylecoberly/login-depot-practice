@@ -1,8 +1,11 @@
 import { useState } from "react"
 import login from "./login"
 import "./LoginForm.css"
+import userContext from "./contexts/user-context"
+import { useContext } from "react"
 
-function LoginForm({ setUser }){
+function LoginForm(){
+  const { setUser } = useContext(userContext)
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")

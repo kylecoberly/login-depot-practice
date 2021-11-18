@@ -1,7 +1,10 @@
 import "./UserProfile.css"
+import userContext from "./contexts/user-context"
+import { useContext } from "react"
 
-function UserProfile({ user, setUser }){
+function UserProfile(){
   const logout = () => setUser(null)
+  const { user, setUser } = useContext(userContext)
 
   return (
     <div className="UserProfile">
